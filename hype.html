@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>State Hype Video | Post Oak Live</title>
+  <meta name="description" content="Watch the Post Oak 10s All Stars state tournament hype video directly on Post Oak Live." />
+  <link rel="icon" href="assets/brand/post-oak-logo-512.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header solid">
+    <a class="brand" href="index.html" aria-label="Post Oak Live home">
+      <img src="assets/brand/post-oak-logo-512.png" alt="Post Oak Little League logo" />
+      <span><strong>Post Oak</strong><em>Live</em></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="live.html">Watch Live</a>
+      <a class="nav-link active" href="hype.html">Hype Video</a>
+      <a class="nav-link" href="bracket.html">Bracket</a>
+    </nav>
+  </header>
+
+  <main id="main" class="watch-page">
+    <section class="watch-hero">
+      <div>
+        <p class="eyebrow">Post Oak 10s All Stars</p>
+        <h1>State Hype Video</h1>
+        <p class="lede">Catch The Fever</p>
+      </div>
+    </section>
+
+    <section class="media-shell" aria-label="Post Oak 10s All Stars hype video player">
+      <div class="media-frame">
+        <video
+          controls
+          preload="metadata"
+          playsinline
+          poster="assets/video/hype-poster.jpg"
+          aria-label="Post Oak 10s All Stars state tournament hype video">
+          <source src="assets/video/post-oak-10s-hype.mp4?v=92cac2a" type="video/mp4" />
+          Your browser does not support HTML5 video. <a href="assets/video/post-oak-10s-hype.mp4">Download the video</a> instead.
+        </video>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Post Oak Live</span>
+    <span>Post Oak Little League tournament streaming.</span>
+  </footer>
+  <script src="site.js"></script>
+</body>
+</html>
