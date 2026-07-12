@@ -140,3 +140,9 @@ Next required access step:
   - Branch: `main`
   - Folder: `/ (root)`
   - Custom domain: `postoaklive.com`
+
+## 2026-07-12 Update – Bracket Graphic
+
+- Production bracket image was replaced with the latest supplied tournament bracket graphic.
+- Scope intentionally limited to the bracket image asset plus this status/changelog documentation.
+- Verification target: https://postoaklive.com/bracket.html

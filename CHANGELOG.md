@@ -22,3 +22,8 @@
 
 - Removed `Download MP4` and `Open Video File` buttons from the hype page.
 - Removed the "Self-hosted video" and metadata-only preload explanatory copy from the hype page.
+
+## 2026-07-12 – Bracket graphic update
+
+- Replaced `assets/bracket/texas-east-bracket.png` with the updated bracket graphic supplied from Google Drive.
+- No bracket page markup, navigation, styling, video, or live-stream files were changed.
