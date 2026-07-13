@@ -52,3 +52,9 @@
 - Replaced the Featured Team card with a Championship Game card.
 - Added optimized WebP versions of the supplied championship poster and watercolor team portrait.
 - Added championship story sections that build from event stakes to team journey to live broadcast.
+
+## 2026-07-13 – Championship homepage deployment verification
+
+- Pushed the championship homepage update to `Buffaloslive/postoaklive` on `main` at commit `f97a099`.
+- Verified GitHub Pages completed a successful build for the championship homepage commit.
+- Verified production `https://postoaklive.com/?v=f97a099` serves the updated championship title, primary CTA, and new poster/watercolor assets.

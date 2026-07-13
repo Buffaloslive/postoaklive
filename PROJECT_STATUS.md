@@ -2,7 +2,16 @@
 
 ## 2026-07-13 — Championship landing page update
 
-Status: homepage updated for the Texas East Little League State Championship and ready for deployment verification.
+Status: deployed and verified on GitHub Pages for the Texas East Little League State Championship homepage.
+
+
+Production verification after deployment:
+
+- Commit pushed: `f97a099`
+- GitHub Pages latest build: `built` for commit `f97a099`
+- Verified `https://postoaklive.com/?v=f97a099` returns the championship homepage title and “Watch the Championship Live” CTA.
+- Verified `assets/brand/championship-poster.webp` and `assets/brand/team-watercolor.webp` return HTTP 200 from production.
+- Verified apex HTTPS returns HTTP 200 and `www.postoaklive.com` redirects to the apex domain.
 
 Completed locally:
 
