@@ -2,7 +2,7 @@
 
 ## 2026-07-13 — Championship homepage targeted refinements
 
-Status: targeted refinements implemented locally; pending production build verification after push.
+Status: targeted refinements deployed to production and verified on the live GitHub Pages site.
 
 Completed locally:
 
@@ -11,6 +11,12 @@ Completed locally:
 - Updated team-story copy from “Hundreds of practices” to “Endless practices” while preserving the remaining wording.
 - Fixed the championship poster presentation so the full square artwork is visible using `object-fit: contain` in a naturally square media frame.
 - Preserved the existing page design, section sequence, borders, dark styling, and sports-media aesthetic.
+
+- Pushed implementation commit `14d42c0` to `main`.
+- Verified production `index.html`, `site.js`, and `styles.css` from `https://postoaklive.com/?v=14d42c0` contain the requested date-aware hooks, “Endless practices” wording, and `object-fit: contain` poster styling.
+- Verified JavaScript states in production using America/Chicago test times: `TOMORROW • 6:00 PM`, `TODAY • 6:00 PM`, and linked `LIVE NOW`.
+- Verified desktop poster display uses the full square artwork without crop.
+- Verified a 390px mobile viewport has no horizontal overflow and renders the poster as a full square image with `object-fit: contain`.
 
 
 ## 2026-07-13 — Championship landing page update

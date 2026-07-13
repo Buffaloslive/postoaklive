@@ -65,3 +65,9 @@
 - Updated the team-story wording to “Twelve boys. Endless practices...” while preserving the rest of the copy.
 - Changed the championship poster frame to preserve the source artwork’s square aspect ratio with `object-fit: contain` and no crop.
 - Preserved the existing layout, styling, and page flow while making the requested targeted refinements.
+
+## 2026-07-13 – Targeted refinements production verification
+
+- Verified the live GitHub Pages site reflects the targeted championship homepage refinements from implementation commit `14d42c0`.
+- Confirmed the production badge states, date-aware heading/story copy, linked `LIVE NOW` behavior, and uncropped square poster presentation.
+- Confirmed mobile viewport testing showed no horizontal overflow and full poster visibility.
