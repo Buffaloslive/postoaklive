@@ -58,3 +58,10 @@
 - Pushed the championship homepage update to `Buffaloslive/postoaklive` on `main` at commit `f97a099`.
 - Verified GitHub Pages completed a successful build for the championship homepage commit.
 - Verified production `https://postoaklive.com/?v=f97a099` serves the updated championship title, primary CTA, and new poster/watercolor assets.
+
+## 2026-07-13 – Championship homepage targeted refinements
+
+- Added America/Chicago date-aware behavior for the championship game-time badge, championship heading, and team-story first sentence.
+- Updated the team-story wording to “Twelve boys. Endless practices...” while preserving the rest of the copy.
+- Changed the championship poster frame to preserve the source artwork’s square aspect ratio with `object-fit: contain` and no crop.
+- Preserved the existing layout, styling, and page flow while making the requested targeted refinements.

@@ -1,5 +1,18 @@
 # Project Status
 
+## 2026-07-13 — Championship homepage targeted refinements
+
+Status: targeted refinements implemented locally; pending production build verification after push.
+
+Completed locally:
+
+- Added America/Chicago date-aware championship badge behavior: Tomorrow, Today, and Live Now states.
+- Added America/Chicago date-aware copy for the “Why this game matters” heading and team-story first sentence.
+- Updated team-story copy from “Hundreds of practices” to “Endless practices” while preserving the remaining wording.
+- Fixed the championship poster presentation so the full square artwork is visible using `object-fit: contain` in a naturally square media frame.
+- Preserved the existing page design, section sequence, borders, dark styling, and sports-media aesthetic.
+
+
 ## 2026-07-13 — Championship landing page update
 
 Status: deployed and verified on GitHub Pages for the Texas East Little League State Championship homepage.
