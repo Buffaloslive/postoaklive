@@ -1,6 +1,6 @@
 # Post Oak Live
 
-Static production site for Post Oak Live, focused on Post Oak Little League and the current featured team: the Post Oak 10s All Stars.
+Static production site for Post Oak Live, focused on the Texas East Little League State Championship broadcast for Post Oak Little League's 10U All Stars.
 
 ## Stack
 
@@ -19,7 +19,9 @@ Static production site for Post Oak Live, focused on Post Oak Little League and 
 
 - `assets/brand/post-oak-little-league-logo.png` — primary Post Oak Little League logo
 - `assets/brand/post-oak-logo-512.png` — compact site/fav icon
-- `assets/brand/post-oak-state-art.jpg` — state tournament art reference
+- `assets/brand/post-oak-state-art.jpg` — original state tournament art reference
+- `assets/brand/championship-poster.webp` — optimized championship promotional poster
+- `assets/brand/team-watercolor.webp` — optimized watercolor team portrait
 
 ## Video assets
 

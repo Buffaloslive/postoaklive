@@ -1,5 +1,19 @@
 # Project Status
 
+## 2026-07-13 — Championship landing page update
+
+Status: homepage updated for the Texas East Little League State Championship and ready for deployment verification.
+
+Completed locally:
+
+- Homepage hero now immediately identifies the Texas East State Championship, Tuesday July 14, 6:00 PM first pitch, Pearland Little League, and live viewing path.
+- Primary CTA renamed to “Watch the Championship Live”; Hype Video remains secondary.
+- Thin championship banner added across the top of the page.
+- Featured Team card replaced with Championship Game card.
+- Supplied championship poster and watercolor team portrait were downloaded from the Drive Graphics Examples folder, optimized to WebP, and integrated into story sections.
+- Existing navigation, typography, colors, spacing language, and static site structure were preserved.
+
+
 ## 2026-07-09 — Revision 3 final punch list
 
 Status: ready for final deployment to a dedicated PostOakLive repository and `postoaklive.com`.

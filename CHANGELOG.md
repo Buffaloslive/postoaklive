@@ -44,3 +44,11 @@
 - Closed P001 by verifying GitHub Pages HTTPS enforcement is enabled and certificate provisioning is approved for `postoaklive.com` and `www.postoaklive.com`.
 - Confirmed both apex and `www` HTTPS URLs return HTTP 200 without certificate warnings.
 - Documented root cause: stale/absent GitHub Pages custom-domain certificate provisioning state. Current repository `CNAME`, DNS, and production content are preserved; incident history includes transient CNAME reset commits before final restoration/documentation.
+
+## 2026-07-13 – Championship landing page update
+
+- Evolved the homepage into the Texas East Little League State Championship landing page without redesigning the site.
+- Added the championship alert banner, championship-focused hero messaging, event detail pills, and primary “Watch the Championship Live” CTA.
+- Replaced the Featured Team card with a Championship Game card.
+- Added optimized WebP versions of the supplied championship poster and watercolor team portrait.
+- Added championship story sections that build from event stakes to team journey to live broadcast.
