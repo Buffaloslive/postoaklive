@@ -43,4 +43,4 @@
 
 - Closed P001 by verifying GitHub Pages HTTPS enforcement is enabled and certificate provisioning is approved for `postoaklive.com` and `www.postoaklive.com`.
 - Confirmed both apex and `www` HTTPS URLs return HTTP 200 without certificate warnings.
-- Documented root cause: stale/absent GitHub Pages custom-domain certificate provisioning state, corrected by manual custom-domain reset in GitHub Pages UI while preserving repository `CNAME`, DNS, and production content.
+- Documented root cause: stale/absent GitHub Pages custom-domain certificate provisioning state. Current repository `CNAME`, DNS, and production content are preserved; incident history includes transient CNAME reset commits before final restoration/documentation.

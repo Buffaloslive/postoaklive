@@ -164,5 +164,5 @@ Next required access step:
 
 - Incident: `postoaklive.com` and `www.postoaklive.com` served GitHub's fallback `*.github.io` certificate after GitHub Pages had no custom-domain certificate recorded.
 - Root cause: GitHub Pages custom-domain certificate provisioning state was absent/stale even though repository `CNAME` and public DNS were correct.
-- Corrective action: Custom domain was reset manually in GitHub Pages UI; repository code, `CNAME`, DNS records, and production content were preserved.
+- Corrective action: GitHub Pages custom-domain provisioning was reset; current repository code, root `CNAME` content, DNS records, and production content are preserved. Incident history includes transient CNAME reset commits before final restoration/documentation.
 - Verification: GitHub Pages reports custom domain `postoaklive.com`, certificate approved for `postoaklive.com` and `www.postoaklive.com`, HTTPS enforcement enabled, and both HTTPS URLs return HTTP 200 with valid certificates.
