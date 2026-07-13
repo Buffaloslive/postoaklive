@@ -37,3 +37,10 @@
 
 - Replaced `assets/bracket/texas-east-bracket.png` with the latest bracket graphic supplied from Google Drive.
 - No bracket page markup, navigation, styling, video, or live-stream files were changed.
+
+
+## 2026-07-13 – P001 GitHub Pages HTTPS restoration
+
+- Closed P001 by verifying GitHub Pages HTTPS enforcement is enabled and certificate provisioning is approved for `postoaklive.com` and `www.postoaklive.com`.
+- Confirmed both apex and `www` HTTPS URLs return HTTP 200 without certificate warnings.
+- Documented root cause: stale/absent GitHub Pages custom-domain certificate provisioning state, corrected by manual custom-domain reset in GitHub Pages UI while preserving repository `CNAME`, DNS, and production content.

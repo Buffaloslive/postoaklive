@@ -158,3 +158,11 @@ Next required access step:
 - Production bracket image was replaced with the latest supplied tournament bracket graphic.
 - Scope intentionally limited to the bracket image asset plus this status/changelog documentation.
 - Verification target: https://postoaklive.com/bracket.html
+
+
+## 2026-07-13 P001 Incident – GitHub Pages HTTPS restored
+
+- Incident: `postoaklive.com` and `www.postoaklive.com` served GitHub's fallback `*.github.io` certificate after GitHub Pages had no custom-domain certificate recorded.
+- Root cause: GitHub Pages custom-domain certificate provisioning state was absent/stale even though repository `CNAME` and public DNS were correct.
+- Corrective action: Custom domain was reset manually in GitHub Pages UI; repository code, `CNAME`, DNS records, and production content were preserved.
+- Verification: GitHub Pages reports custom domain `postoaklive.com`, certificate approved for `postoaklive.com` and `www.postoaklive.com`, HTTPS enforcement enabled, and both HTTPS URLs return HTTP 200 with valid certificates.
