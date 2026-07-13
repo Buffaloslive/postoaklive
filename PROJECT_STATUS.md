@@ -152,3 +152,9 @@ Next required access step:
 - Production bracket image was replaced with the corrected supplied tournament bracket graphic.
 - Scope intentionally limited to the bracket image asset plus this status/changelog documentation.
 - Verification target: https://postoaklive.com/bracket.html
+
+## 2026-07-13 Update – Updated Bracket Graphic
+
+- Production bracket image was replaced with the latest supplied tournament bracket graphic.
+- Scope intentionally limited to the bracket image asset plus this status/changelog documentation.
+- Verification target: https://postoaklive.com/bracket.html

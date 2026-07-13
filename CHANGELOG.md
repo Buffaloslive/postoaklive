@@ -32,3 +32,8 @@
 
 - Replaced `assets/bracket/texas-east-bracket.png` with the corrected bracket graphic supplied from Google Drive.
 - No bracket page markup, navigation, styling, video, or live-stream files were changed.
+
+## 2026-07-13 – Updated bracket graphic
+
+- Replaced `assets/bracket/texas-east-bracket.png` with the latest bracket graphic supplied from Google Drive.
+- No bracket page markup, navigation, styling, video, or live-stream files were changed.
