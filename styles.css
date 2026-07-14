@@ -302,3 +302,23 @@ h3 { font-size: clamp(2.25rem, 5vw, 4.4rem); font-weight: 900; }
   .championship-hero h1 { font-size: clamp(3.65rem, 17vw, 5.4rem); }
   .hero-subhead { font-size: clamp(1.35rem, 8vw, 2.1rem); }
 }
+
+
+/* Championship trailer / final media updates */
+.hype-page .watch-hero { padding-bottom: 1.2rem; }
+.hype-page .media-shell + .media-shell { margin-top: clamp(2rem, 5vw, 4rem); }
+.media-section-heading { padding: .25rem .2rem 1rem; max-width: 760px; }
+.media-section-heading h2 { font-size: clamp(2.5rem, 6vw, 5.2rem); }
+.media-section-heading p { margin: .7rem 0 0; color: var(--muted); font-size: clamp(1rem, 2vw, 1.16rem); }
+.trailer-shell { background: linear-gradient(180deg, rgba(217,4,41,.12), rgba(255,255,255,.04)); }
+.trailer-frame {
+  aspect-ratio: 9 / 16;
+  width: min(100%, 430px);
+  margin: 0 auto;
+}
+.trailer-frame video { object-fit: contain; }
+.secondary-video-shell { background: rgba(255,255,255,.035); }
+@media (max-width: 520px) {
+  .trailer-frame { width: 100%; }
+  .media-section-heading h2 { font-size: clamp(2.25rem, 13vw, 3.7rem); }
+}

@@ -1,5 +1,19 @@
 # Project Status
 
+## 2026-07-13 — Final championship media update
+
+Status: implemented locally; pending production verification after deploy.
+
+Completed locally:
+
+- Downloaded the public Drive-supplied mobile-optimized trailer and added it as `assets/video/championship-trailer.mp4`.
+- Fast-start optimized the Championship Trailer MP4 so playback metadata is available near the front of the file.
+- Updated `hype.html` to feature the new “Championship Trailer” first while preserving the existing state hype video below it.
+- Replaced the bracket image with the final bracket at `assets/bracket/texas-east-bracket.png`.
+- Replaced the championship promotional graphic throughout by overwriting `assets/brand/championship-poster.webp` with the optimized final graphic.
+- Updated homepage trailer callout copy without redesigning or reflowing the landing page.
+
+
 ## 2026-07-13 — Championship homepage targeted refinements
 
 Status: targeted refinements deployed to production and verified on the live GitHub Pages site.

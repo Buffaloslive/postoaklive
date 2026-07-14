@@ -71,3 +71,11 @@
 - Verified the live GitHub Pages site reflects the targeted championship homepage refinements from implementation commit `14d42c0`.
 - Confirmed the production badge states, date-aware heading/story copy, linked `LIVE NOW` behavior, and uncropped square poster presentation.
 - Confirmed mobile viewport testing showed no horizontal overflow and full poster visibility.
+
+## 2026-07-13 – Final championship media update
+
+- Added the mobile-optimized Championship Trailer to the hype page as the featured video.
+- Preserved the existing state hype video below the new trailer.
+- Replaced the bracket image with the final supplied bracket graphic.
+- Replaced the championship graphic throughout with the final supplied artwork.
+- Updated homepage trailer callout copy while preserving the existing championship page design.
