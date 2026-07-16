@@ -2,7 +2,7 @@
 
 ## 2026-07-16 — Mobile Responsiveness and Interaction Pass
 
-Status: implemented locally; pending commit, push, GitHub Pages build verification, and production HTTPS verification.
+Status: deployed and verified on GitHub Pages for the mobile responsiveness and interaction pass.
 
 Completed locally:
 
@@ -19,6 +19,12 @@ Verification completed locally:
 - Confirmed `site.js` passes Node syntax check.
 - Confirmed local static reference scan has no missing homepage assets.
 - Confirmed all three bracket graphics use the approved 1672×941 source assets, including Section Championship v2.
+- Confirmed GitHub Pages Actions completed successfully for implementation commit `5491a10`.
+- Verified production cache-busted homepage, CSS, and JavaScript contain the mobile navigation, bracket expansion, concise mobile ribbon, and responsive headline changes.
+- Tested production responsive behavior via browser iframes at 320×568, 360×800, 375×812, 390×844, 430×932, tablet portrait, tablet landscape, laptop, and large desktop widths: no horizontal overflow and no heading overflow were detected.
+- Verified production mobile menu opens, closes after navigation, locks background scroll while open, and closes with Escape/outside interaction.
+- Verified production bracket lightbox opens the full-resolution bracket image outside the card width, focuses the close button, and closes with Escape.
+- Verified production videos return `video/mp4` with byte-range support from GitHub Pages.
 
 ## 2026-07-16 — Final Asset and LOB Updates
 
