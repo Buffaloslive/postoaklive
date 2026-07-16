@@ -128,3 +128,12 @@
 - Replaced the State Championship Trailer media with the approved approved State Trailer v2 source media derivative from the State Champs Redesign Drive folder.
 - Re-encoded the video as a browser-friendly H.264/AAC MP4 with source metadata stripped and `+faststart` enabled.
 - Regenerated the trailer poster from a privacy-safe title frame and updated the homepage source cache buster.
+
+
+## 2026-07-16 – Final LOB and artwork update
+
+### Changed
+
+- Updated the Combined Shutout card to show 10 runners left on base.
+- Replaced the team watercolor image with the user-approved unredacted version from Drive.
+- Replaced the page/social thumbnail artwork with the supplied State Champion Banner and updated the retained championship-poster fallback asset.

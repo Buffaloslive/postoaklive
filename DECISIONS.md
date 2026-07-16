@@ -90,3 +90,16 @@ Reason: the updated graphic accurately reflects the correct three-game Section 3
 Decision: do not invent or infer runners left on base. Mark LOB unavailable in approved materials until an official box-score source is provided.
 
 Reason: the Drive materials available during this pass did not include an official box-score file with LOB, and the site should prioritize factual accuracy over speculative detail.
+
+
+## 2026-07-16 — Final user-approved privacy override for team artwork
+
+Decision: publish the user-provided Team Watercolor artwork without jersey-name redactions.
+
+Reason: the project owner explicitly approved jersey last names on the back of jerseys for the final version and asked to override the previous privacy treatment for this asset.
+
+## 2026-07-16 — Final LOB update
+
+Decision: update the Combined Shutout card to show 10 runners left on base.
+
+Reason: the project owner supplied the final LOB value and asked to remove the previous unavailable-box-score language.

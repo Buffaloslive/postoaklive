@@ -24,8 +24,9 @@ The site is intentionally team-level. Do not add public rosters, player profile 
 - `assets/brand/post-oak-little-league-logo.png` — primary Post Oak Little League logo
 - `assets/brand/post-oak-logo-512.png` — compact site/fav icon
 - `assets/brand/post-oak-state-art.jpg` — original state tournament art reference
-- `assets/brand/championship-poster.webp` — retained historical pregame graphic; do not feature where live-event wording would be misleading
-- `assets/brand/team-watercolor.webp` — Team Watercolor v2 derivative with jersey-name areas redacted for privacy
+- `assets/brand/championship-poster.webp` — retained fallback championship banner graphic
+- `assets/brand/team-watercolor.webp` — user-approved Team Watercolor artwork
+- `assets/brand/state-champion-banner.webp` — page/social thumbnail championship banner
 
 ## Media assets
 

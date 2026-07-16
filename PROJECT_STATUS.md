@@ -1,5 +1,15 @@
 # Project Status
 
+## 2026-07-16 — Final Asset and LOB Updates
+
+Status: implemented locally; pending commit, push, GitHub Pages build verification, and production HTTPS verification.
+
+Completed locally:
+
+- Updated the Combined Shutout card to show 10 runners left on base and removed the previous unavailable-box-score language.
+- Replaced the Team Watercolor public image with the user-approved unredacted Drive asset. The user explicitly approved jersey last names for this final version.
+- Added the supplied State Champion Banner as the page/social thumbnail and replaced the retained championship-poster fallback asset with the same banner.
+
 ## 2026-07-16 — State Trailer v2 Asset Swap
 
 Status: implemented locally; pending commit, push, GitHub Pages build verification, and production HTTPS verification.
