@@ -119,3 +119,12 @@
 ### Notes
 
 - LOB is marked unavailable because no official championship box-score file with LOB was present in the approved Drive materials available during this pass.
+
+
+## 2026-07-16 – State Trailer v2 replacement
+
+### Changed
+
+- Replaced the State Championship Trailer media with the approved approved State Trailer v2 source media derivative from the State Champs Redesign Drive folder.
+- Re-encoded the video as a browser-friendly H.264/AAC MP4 with source metadata stripped and `+faststart` enabled.
+- Regenerated the trailer poster from a privacy-safe title frame and updated the homepage source cache buster.

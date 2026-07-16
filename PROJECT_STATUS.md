@@ -1,5 +1,22 @@
 # Project Status
 
+## 2026-07-16 — State Trailer v2 Asset Swap
+
+Status: implemented locally; pending commit, push, GitHub Pages build verification, and production HTTPS verification.
+
+Completed locally:
+
+- Downloaded approved State Trailer v2 source media from the approved State Champs Redesign Drive folder.
+- Replaced the public `assets/video/championship-trailer.mp4` with a browser-friendly H.264/AAC MP4 derivative using `+faststart` and stripped source metadata.
+- Regenerated the championship trailer poster from a privacy-safe title frame.
+- Updated the homepage video source cache buster to `state-trailer-v2`.
+
+Verification completed locally:
+
+- Local HTML/link check found no missing `href`, `src`, or `poster` targets.
+- FFmpeg decode check passed for the replacement trailer.
+- Poster frame was visually checked for usability and absence of readable player-identifying text.
+
 ## 2026-07-16 — P001 Legacy Edition V2 Final Polish
 
 Status: implemented locally; pending commit, push, GitHub Pages build verification, and production HTTPS verification.
