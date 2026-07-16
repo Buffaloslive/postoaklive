@@ -12,7 +12,7 @@
 ### Changed
 
 - Updated `live.html` copy to focus on the 10s All Stars' quest for the Texas East State Title.
-- Updated Varsity Hype iframe/direct links to the specific livestream URL.
+- Updated the former third-party livestream iframe/direct links during the pregame phase; the retired provider URL is omitted from legacy documentation.
 - Simplified `hype.html` copy to "Catch The Fever".
 - Removed technical self-hosted-video copy from `hype.html`.
 - Updated `CNAME` from `buffaloslive.com` to `postoaklive.com` for the dedicated PostOakLive deployment.
@@ -79,3 +79,26 @@
 - Replaced the bracket image with the final supplied bracket graphic.
 - Replaced the championship graphic throughout with the final supplied artwork.
 - Updated homepage trailer callout copy while preserving the existing championship page design.
+
+
+## 2026-07-16 – P001 PostOakLive Legacy Edition
+
+### Added
+
+- Added a permanent championship legacy homepage with Hero, The Story, Our Path, We Prepared, We Got Hyped, The Championship, The Team, The Numbers, and Thank You sections.
+- Added sanitized web copies of approved preparation-message videos and poster frames.
+- Added district, section, and state championship bracket artwork for the Our Path timeline.
+- Added a concise privacy-safe championship recap and team-level summary.
+
+### Changed
+
+- Updated navigation from live-event labels to permanent legacy section links.
+- Repurposed `live.html`, `hype.html`, and `bracket.html` so existing URLs no longer imply a current live stream, game replay, or live bracket dependency.
+- Replaced temporary event copy with championship accomplishment and long-term preservation copy.
+- Simplified JavaScript to current footer-year and sticky-header behavior only.
+- Updated documentation to record the legacy-site architecture, privacy decisions, local verification, and known recap-source limitation.
+
+### Removed
+
+- Removed public livestream provider links and embedded game broadcast behavior from the site.
+- Removed date-aware pregame/live-now behavior that is no longer appropriate after the championship was won.

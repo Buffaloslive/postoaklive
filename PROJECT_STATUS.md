@@ -1,5 +1,33 @@
 # Project Status
 
+## 2026-07-16 — P001 PostOakLive Legacy Edition
+
+Status: implemented locally; pending commit, push, GitHub Pages build verification, and production HTTPS verification.
+
+Completed locally:
+
+- Rebuilt the homepage from a temporary livestream/event landing page into a permanent championship legacy experience for the 2026 Texas East State Champion Post Oak Little League 10U All Stars.
+- Preserved the existing premium dark sports design language, typography, colors, navigation style, and animation philosophy while expanding the page into a museum/documentary-style story.
+- Retired the public livestream hub behavior: `live.html`, `hype.html`, and `bracket.html` now route visitors back into the legacy experience and do not publish game replays or a live stream.
+- Downloaded and inventoried the State Champs Redesign folder: preparation messages, district/section/state bracket artwork, and state trailer media.
+- Added sanitized web copies of the approved preparation-message videos and poster frames under `assets/video/preparation/` and `assets/video/posters/`.
+- Added district, section, and state championship bracket artwork under `assets/bracket/legacy/`. Bracket assets were reviewed as team/league/result graphics rather than individual player-name content.
+- Championship recap uses only team-level details verified from the state bracket: Post Oak 4, Lamar 0; 3-0 state tournament record; one total run allowed at state.
+- The Numbers section uses verified or brief-provided team-level figures and omits unsupported individual statistics.
+- Privacy review completed against public HTML/CSS/JS and newly prepared public media asset strings for obvious source/private markers. No roster, player biography, school, contact, birth-date, full player-name mapping, game replay, or livestream provider link is intentionally published.
+
+Verification completed locally:
+
+- Local HTTP smoke test returned HTTP 200 for `index.html` and legacy secondary pages.
+- Local link check found no missing local `href`, `src`, or `poster` targets across `index.html`, `live.html`, `hype.html`, and `bracket.html`.
+- Section-anchor check confirmed navigation targets exist: Home, Our Path, Preparation, Hype, Championship, and The Team.
+- Preparation video assets return `video/mp4` from the local static server.
+
+Known limitation:
+
+- The Drive folder did not expose a separate championship box-score/recap document during implementation. The public recap therefore uses concise team-level details verified from the final state bracket instead of reproducing any raw player-level box score.
+
+
 ## 2026-07-13 — Final championship media update
 
 Status: implemented locally; pending production verification after deploy.
@@ -63,8 +91,7 @@ Status: ready for final deployment to a dedicated PostOakLive repository and `po
 Completed locally:
 
 - Updated `live.html` intro copy to: "Follow Post Oak Little League's 10s All Stars on their quest for the Texas East State Title."
-- Updated the Varsity Hype embed and direct fallback link to the specific livestream URL:
-  `https://app.varsityhype.com/livestream/16e0a0a6-6b84-4c00-9dd6-6ca06510db5c/`
+- Updated the former third-party livestream embed and direct fallback link during the pregame phase. The retired provider URL is intentionally omitted from legacy documentation.
 - Cleaned up `hype.html` so the page focuses on the video with minimal supporting text and the phrase "Catch The Fever".
 - Removed the MP4 download/open buttons and the technical self-hosting copy from the hype page.
 - Added `bracket.html` with the Texas East tournament bracket image and a prominent live bracket button.
@@ -163,7 +190,7 @@ curl -I -L https://www.postoaklive.com/
 ### Final production verification checklist
 
 - `https://postoaklive.com/` serves the Post Oak Live homepage directly.
-- `https://postoaklive.com/live.html` loads the specific Varsity Hype livestream URL.
+- `https://postoaklive.com/live.html` no longer exposes a livestream provider URL in the Legacy Edition.
 - `https://postoaklive.com/hype.html` plays the self-hosted hype video.
 - `https://postoaklive.com/bracket.html` displays the bracket image and live bracket button.
 - `https://buffaloslive.com/` remains independent and is not used as the Post Oak production repo/domain.

@@ -1,19 +1,23 @@
 # Post Oak Live
 
-Static production site for Post Oak Live, focused on the Texas East Little League State Championship broadcast for Post Oak Little League's 10U All Stars.
+Permanent static legacy site for the 2026 Texas East State Champion Post Oak Little League 10U All Stars.
 
 ## Stack
 
 - Plain HTML/CSS/JavaScript
 - GitHub Pages from the `main` branch root
-- Self-hosted HTML5 MP4 hype video
+- Self-hosted approved MP4 hype and preparation media
 
 ## Pages
 
-- `index.html` — primary landing page
-- `live.html` — live stream page with provider embed and direct fallback
-- `hype.html` — self-hosted Championship Trailer plus state tournament hype video page
-- `bracket.html` — Texas East tournament bracket page with live bracket link
+- `index.html` — complete championship legacy experience
+- `live.html` — retired broadcast URL that routes visitors to the legacy site; no livestream or replay
+- `hype.html` — retired hype URL that routes visitors to the homepage hype section
+- `bracket.html` — retired bracket URL that routes visitors to the homepage path section
+
+## Privacy posture
+
+The site is intentionally team-level. Do not add public rosters, player profile pages, school/contact/birth information, jersey-to-full-name mappings, or player statistics tied to full names. No full game recordings, livestream replays, or livestream provider links should be published.
 
 ## Brand assets
 
@@ -23,17 +27,14 @@ Static production site for Post Oak Live, focused on the Texas East Little Leagu
 - `assets/brand/championship-poster.webp` — optimized final championship graphic
 - `assets/brand/team-watercolor.webp` — optimized watercolor team portrait
 
-## Video assets
+## Media assets
 
-- `assets/video/championship-trailer.mp4` — mobile-optimized Championship Trailer MP4, fast-start optimized for web playback
-- `assets/video/post-oak-10s-hype.mp4` — web-ready 720p MP4, metadata-preload friendly
-- `assets/video/hype-poster.jpg` — generated poster frame
+- `assets/video/championship-trailer.mp4` — approved State Championship Trailer
+- `assets/video/post-oak-10s-hype.mp4` — approved original hype video
+- `assets/video/preparation/` — approved preparation-message video cards
+- `assets/video/posters/` — generated poster frames for preparation videos
+- `assets/bracket/legacy/` — district, section, and state championship bracket artwork
 
 ## Notes
 
-This site is intended for a dedicated PostOakLive GitHub Pages repository with `postoaklive.com` as the custom domain. BuffalosLive should remain separate in its own repository/domain.
-
-## Bracket
-
-- Static final bracket image: `assets/bracket/texas-east-bracket.png`
-- Live bracket: https://docs.google.com/spreadsheets/d/1FHuu6guCXyWBLNHMTBrC_aJTbhWqQGWR9Itczp3hhUU/edit?gid=936683304#gid=936683304
+This site is intended for the dedicated `Buffaloslive/postoaklive` GitHub Pages repository with `postoaklive.com` as the custom domain. BuffalosLive remains separate in its own repository/domain.
