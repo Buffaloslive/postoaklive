@@ -10,7 +10,7 @@ Completed locally:
 - Preserved the existing premium dark sports design language, typography, colors, navigation style, and animation philosophy while expanding the page into a museum/documentary-style story.
 - Retired the public livestream hub behavior: `live.html`, `hype.html`, and `bracket.html` now route visitors back into the legacy experience and do not publish game replays or a live stream.
 - Downloaded and inventoried the State Champs Redesign folder: preparation messages, district/section/state bracket artwork, and state trailer media.
-- Added sanitized web copies of the approved preparation-message videos and poster frames under `assets/video/preparation/` and `assets/video/posters/`.
+- Added sanitized web copies of the approved preparation-message videos and poster frames under `assets/video/preparation/` and `assets/video/posters/`; third-party source watermarks were cropped out of the public video copies.
 - Added district, section, and state championship bracket artwork under `assets/bracket/legacy/`. Bracket assets were reviewed as team/league/result graphics rather than individual player-name content.
 - Championship recap uses only team-level details verified from the state bracket: Post Oak 4, Lamar 0; 3-0 state tournament record; one total run allowed at state.
 - The Numbers section uses verified or brief-provided team-level figures and omits unsupported individual statistics.

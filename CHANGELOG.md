@@ -86,7 +86,7 @@
 ### Added
 
 - Added a permanent championship legacy homepage with Hero, The Story, Our Path, We Prepared, We Got Hyped, The Championship, The Team, The Numbers, and Thank You sections.
-- Added sanitized web copies of approved preparation-message videos and poster frames.
+- Added sanitized web copies of approved preparation-message videos and poster frames, with third-party source watermarks cropped out for public presentation.
 - Added district, section, and state championship bracket artwork for the Our Path timeline.
 - Added a concise privacy-safe championship recap and team-level summary.
 - Added privacy redactions to the watercolor team artwork over jersey-name areas while preserving the full team composition.
