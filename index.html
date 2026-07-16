@@ -19,14 +19,20 @@
 <body class="legacy-site">
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="championship-banner" role="status" aria-label="Championship accomplishment">
-    🏆 TEXAS EAST LITTLE LEAGUE • 2026 STATE CHAMPIONS • MISSION ACCOMPLISHED
+    <span class="banner-full">🏆 TEXAS EAST LITTLE LEAGUE • 2026 STATE CHAMPIONS • MISSION ACCOMPLISHED</span>
+    <span class="banner-mobile" aria-hidden="true">🏆 2026 TEXAS EAST STATE CHAMPIONS</span>
   </div>
   <header class="site-header" data-solid="false">
     <a class="brand" href="index.html" aria-label="Post Oak Live championship legacy home">
       <img src="assets/brand/post-oak-logo-512.png" alt="Post Oak Little League logo" />
       <span><strong>Post Oak</strong><em>Live</em></span>
     </a>
-    <nav aria-label="Primary navigation">
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-controls="primary-nav" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </button>
+    <nav id="primary-nav" aria-label="Primary navigation">
       <a class="nav-link active" href="#top">Home</a>
       <a class="nav-link" href="#path">Our Path</a>
       <a class="nav-link" href="#preparation">Preparation</a>
@@ -90,34 +96,37 @@
       </div>
       <div class="chapter-grid">
         <article class="chapter-card">
-          <a href="assets/bracket/legacy/district-championship.png" aria-label="Open District Championship bracket artwork">
-            <img src="assets/bracket/legacy/district-championship.png" alt="District championship bracket artwork with team results" loading="lazy" />
-          </a>
-          <div>
+          <div class="chapter-copy">
             <span class="panel-kicker">Chapter 01</span>
             <h3>District Championship</h3>
             <p>After dropping the opening game, Post Oak faced elimination—and never lost again. Six straight victories completed the comeback, capped by a winner-take-all shutout to claim the District 16 Championship.</p>
           </div>
+          <a class="bracket-preview" href="assets/bracket/legacy/district-championship.png" data-full-image="assets/bracket/legacy/district-championship.png" aria-label="View full District Championship bracket">
+            <img src="assets/bracket/legacy/district-championship.png" alt="District championship bracket artwork with team results" loading="lazy" />
+            <span class="bracket-action"><span aria-hidden="true">⌕</span> View full bracket</span>
+          </a>
         </article>
         <article class="chapter-card reverse">
-          <a href="assets/bracket/legacy/section-championship.png" aria-label="Open Section Championship bracket artwork">
-            <img src="assets/bracket/legacy/section-championship.png" alt="Section championship bracket artwork with team results" loading="lazy" />
-          </a>
-          <div>
+          <div class="chapter-copy">
             <span class="panel-kicker">Chapter 02</span>
             <h3>Section Championship</h3>
             <p>Three games. Three wins. Post Oak swept through Texas East Section 3 undefeated to earn a place in the Texas East State Tournament.</p>
           </div>
+          <a class="bracket-preview" href="assets/bracket/legacy/section-championship.png" data-full-image="assets/bracket/legacy/section-championship.png" aria-label="View full Section Championship bracket">
+            <img src="assets/bracket/legacy/section-championship.png" alt="Section championship bracket artwork with team results" loading="lazy" />
+            <span class="bracket-action"><span aria-hidden="true">⌕</span> View full bracket</span>
+          </a>
         </article>
         <article class="chapter-card">
-          <a href="assets/bracket/legacy/state-championship.png" aria-label="Open State Championship bracket artwork">
-            <img src="assets/bracket/legacy/state-championship.png" alt="State championship bracket artwork with team results" loading="lazy" />
-          </a>
-          <div>
+          <div class="chapter-copy">
             <span class="panel-kicker">Chapter 03</span>
             <h3>Texas East State Championship</h3>
             <p>Three games. Three wins. One run allowed. Post Oak completed its twelve-game winning streak with a 4–0 shutout over Lamar to capture the Texas East State Championship.</p>
           </div>
+          <a class="bracket-preview" href="assets/bracket/legacy/state-championship.png" data-full-image="assets/bracket/legacy/state-championship.png" aria-label="View full State Championship bracket">
+            <img src="assets/bracket/legacy/state-championship.png" alt="State championship bracket artwork with team results" loading="lazy" />
+            <span class="bracket-action"><span aria-hidden="true">⌕</span> View full bracket</span>
+          </a>
         </article>
       </div>
     </section>

@@ -137,3 +137,15 @@
 - Updated the Combined Shutout card to show 10 runners left on base.
 - Replaced the team watercolor image with the user-approved unredacted version from Drive.
 - Replaced the page/social thumbnail artwork with the supplied State Champion Banner and updated the retained championship-poster fallback asset.
+## 2026-07-16 – Mobile responsiveness and interaction pass
+
+### Added
+
+- Added accessible mobile navigation with a hamburger menu, large touch targets, outside-click close, link-selection close, and Escape close behavior.
+- Added full-screen bracket expansion for the District, Section, and State bracket graphics while preserving their full aspect ratio and full-resolution assets.
+- Added dynamic anchor offset handling for the fixed championship ribbon plus header.
+
+### Changed
+
+- Switched the championship ribbon to concise mobile copy at narrow widths while preserving the full desktop ribbon.
+- Tuned mobile headline sizing/wrapping, chapter-card order, number-grid density, video containment, image containment, focus states, and spacing to make the phone experience intentional rather than compressed.

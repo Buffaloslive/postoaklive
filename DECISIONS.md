@@ -103,3 +103,23 @@ Reason: the project owner explicitly approved jersey last names on the back of j
 Decision: update the Combined Shutout card to show 10 runners left on base.
 
 Reason: the project owner supplied the final LOB value and asked to remove the previous unavailable-box-score language.
+
+## 2026-07-16 — Mobile interaction architecture
+
+### Bracket expansion
+
+Decision: keep the bracket previews uncropped in the chapter cards and add a lightweight custom full-screen viewer instead of adding a third-party lightbox dependency.
+
+Reason: the bracket graphics are too detailed for narrow inline reading, but the existing source images are already the approved full-resolution assets. A small native viewer preserves performance, keeps the site maintainable, and lets phone users pan/zoom the full graphic.
+
+### Mobile navigation
+
+Decision: preserve the current desktop navigation and switch to a hamburger-controlled vertical menu below the observed crowded-navigation breakpoint.
+
+Reason: shrinking all labels further would weaken touch usability and the premium feel. A simple menu keeps the brand visible, preserves labels/destinations, and avoids a dependency.
+
+### Anchor offsets
+
+Decision: measure the fixed ribbon and header in JavaScript and expose the result as `--chrome-offset` for section `scroll-margin-top`.
+
+Reason: the banner/header heights vary by breakpoint and emoji/font rendering, so a measured offset is more dependable than a single hard-coded value.

@@ -1,5 +1,25 @@
 # Project Status
 
+## 2026-07-16 — Mobile Responsiveness and Interaction Pass
+
+Status: implemented locally; pending commit, push, GitHub Pages build verification, and production HTTPS verification.
+
+Completed locally:
+
+- Added a real mobile hamburger navigation at phone/tablet breakpoints while preserving the desktop navigation layout.
+- Added concise mobile championship ribbon text so the banner remains one balanced line on phones.
+- Added dynamic fixed-header/ribbon anchor offsets using measured chrome height and `scroll-margin-top`.
+- Reworked the three Our Path chapter cards so mobile reads chapter label, title, recap, bracket preview, then expansion action.
+- Added accessible full-screen bracket expansion for District, Section, and State bracket artwork with Escape/outside-click/close-button behavior and full-resolution zoomable image stage.
+- Added mobile typography, spacing, number-grid, video, image, focus, and touch-target guardrails to eliminate overflow/clipping while preserving the premium desktop design.
+
+Verification completed locally:
+
+- Confirmed `index.html`, `live.html`, `hype.html`, and `bracket.html` parse.
+- Confirmed `site.js` passes Node syntax check.
+- Confirmed local static reference scan has no missing homepage assets.
+- Confirmed all three bracket graphics use the approved 1672×941 source assets, including Section Championship v2.
+
 ## 2026-07-16 — Final Asset and LOB Updates
 
 Status: implemented locally; pending commit, push, GitHub Pages build verification, and production HTTPS verification.
