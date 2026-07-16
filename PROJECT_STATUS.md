@@ -14,7 +14,7 @@ Completed locally:
 - Added district, section, and state championship bracket artwork under `assets/bracket/legacy/`. Bracket assets were reviewed as team/league/result graphics rather than individual player-name content.
 - Championship recap uses only team-level details verified from the state bracket: Post Oak 4, Lamar 0; 3-0 state tournament record; one total run allowed at state.
 - The Numbers section uses verified or brief-provided team-level figures and omits unsupported individual statistics.
-- Privacy review completed against public HTML/CSS/JS and newly prepared public media asset strings for obvious source/private markers. No roster, player biography, school, contact, birth-date, full player-name mapping, game replay, or livestream provider link is intentionally published.
+- Privacy review completed against public HTML/CSS/JS and newly prepared public media asset strings for obvious source/private markers. No roster, player biography, school, contact, birth-date, full player-name mapping, game replay, or livestream provider link is intentionally published. The watercolor team artwork was redacted over jersey-name areas before publication while preserving the full team composition.
 
 Verification completed locally:
 

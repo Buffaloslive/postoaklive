@@ -89,6 +89,7 @@
 - Added sanitized web copies of approved preparation-message videos and poster frames.
 - Added district, section, and state championship bracket artwork for the Our Path timeline.
 - Added a concise privacy-safe championship recap and team-level summary.
+- Added privacy redactions to the watercolor team artwork over jersey-name areas while preserving the full team composition.
 
 ### Changed
 
