@@ -69,3 +69,24 @@ Reason: several families do not want fully identifying individual player informa
 Decision: use the final state bracket as the verified public source for the championship recap and team-level box summary.
 
 Reason: no separate recap/box-score document was visible in the State Champs Redesign folder during implementation. The bracket verifies the opponent, final score, 3-0 state record, and one run allowed without publishing individual player details.
+
+
+## 2026-07-16 — Legacy Edition V2 final polish
+
+### Team Watercolor v2 privacy treatment
+
+Decision: use the revised Team Watercolor v2 artwork, but publish a derivative with non-blur redaction blocks over jersey-name areas.
+
+Reason: the source artwork contains readable jersey names. The project privacy rule against publishing full player-identifying information remains controlling, while the derivative still preserves the full team composition and jersey numbers.
+
+### Section Championship v2 artwork
+
+Decision: replace the prior section bracket graphic with Sectional Bracket v2.
+
+Reason: the updated graphic accurately reflects the correct three-game Section 3 tournament run.
+
+### Championship LOB
+
+Decision: do not invent or infer runners left on base. Mark LOB unavailable in approved materials until an official box-score source is provided.
+
+Reason: the Drive materials available during this pass did not include an official box-score file with LOB, and the site should prioritize factual accuracy over speculative detail.

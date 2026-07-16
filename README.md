@@ -25,7 +25,7 @@ The site is intentionally team-level. Do not add public rosters, player profile 
 - `assets/brand/post-oak-logo-512.png` — compact site/fav icon
 - `assets/brand/post-oak-state-art.jpg` — original state tournament art reference
 - `assets/brand/championship-poster.webp` — retained historical pregame graphic; do not feature where live-event wording would be misleading
-- `assets/brand/team-watercolor.webp` — optimized watercolor team portrait with jersey-name areas redacted for privacy
+- `assets/brand/team-watercolor.webp` — Team Watercolor v2 derivative with jersey-name areas redacted for privacy
 
 ## Media assets
 
@@ -33,7 +33,7 @@ The site is intentionally team-level. Do not add public rosters, player profile 
 - `assets/video/post-oak-10s-hype.mp4` — approved original hype video
 - `assets/video/preparation/` — approved preparation-message video cards
 - `assets/video/posters/` — generated poster frames for preparation videos
-- `assets/bracket/legacy/` — district, section, and state championship bracket artwork
+- `assets/bracket/legacy/` — district, Sectional Bracket v2, and state championship bracket artwork
 
 ## Notes
 

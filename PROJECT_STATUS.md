@@ -1,5 +1,32 @@
 # Project Status
 
+## 2026-07-16 — P001 Legacy Edition V2 Final Polish
+
+Status: implemented locally; pending commit, push, GitHub Pages build verification, and production HTTPS verification.
+
+Completed locally:
+
+- Preserved the existing Legacy Edition design language while tightening the storytelling, copy, and typography.
+- Updated the Our Path narrative to emphasize the defining season arc: one loss, twelve straight wins, three championships.
+- Replaced Section Championship artwork with `Sectional Bracket v2.png` from the State Champs Redesign Drive folder.
+- Replaced the team artwork with `Team Watercolor Graphic v2.png` from the State Champs Redesign folder; because the source artwork contains readable jersey names, the public derivative uses non-blur privacy redaction blocks over name areas while preserving players, jersey numbers, and the full team composition.
+- Reworked We Prepared, We Got Hyped, The Final Chapter, The Team, The Numbers, and Thank You copy for stronger museum-style storytelling.
+- Rebuilt The Final Chapter as polished story cards covering the recap, offense, pitching, defense, and tournament snapshot.
+- Updated Numbers to the stronger story metrics: 12 players, 13 tournament games, 1 loss, 12 straight wins, 3 championships, 3-0 state record, 1 run allowed at state, 150+ teams began the journey, 1 state champion.
+
+Verification completed locally:
+
+- HTML parsed for `index.html`, `live.html`, `hype.html`, and `bracket.html`.
+- Local link check found no missing local `href`, `src`, or `poster` targets.
+- Local HTTP smoke test returned HTTP 200 for the homepage.
+- MP4 decode checks passed for all public approved videos.
+- Text scan found no stale public page references to `Watch Live`, third-party livestream URLs, forbidden source-provider labels, `Preparation Message`, `Featured`, or `Original Hype Video`.
+
+Known limitation:
+
+- The Drive materials available to the build did not include an official championship box-score file with LOB. The public Final Chapter therefore labels LOB as unavailable in approved materials rather than inventing a value.
+
+
 ## 2026-07-16 — P001 PostOakLive Legacy Edition
 
 Status: implemented locally; pending commit, push, GitHub Pages build verification, and production HTTPS verification.

@@ -103,3 +103,19 @@
 
 - Removed public livestream provider links and embedded game broadcast behavior from the site.
 - Removed date-aware pregame/live-now behavior that is no longer appropriate after the championship was won.
+
+
+## 2026-07-16 – Legacy Edition V2 final polish
+
+### Changed
+
+- Tightened the Our Path story around the season-defining arc: one loss, twelve straight wins, three championships.
+- Replaced the Section Championship artwork with the approved Sectional Bracket v2 graphic.
+- Replaced the team artwork with the approved Team Watercolor v2 derivative and privacy-redacted jersey-name areas without blurring.
+- Rewrote We Prepared, We Got Hyped, The Final Chapter, The Team, The Numbers, and Thank You copy for stronger permanent-legacy storytelling.
+- Rebuilt the championship section into polished recap, offense, pitching, defense, and tournament snapshot cards.
+- Updated the Numbers section to use stronger story metrics and preserve the verified `150+` team-count figure.
+
+### Notes
+
+- LOB is marked unavailable because no official championship box-score file with LOB was present in the approved Drive materials available during this pass.

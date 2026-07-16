@@ -389,3 +389,48 @@ h3 { font-size: clamp(2.25rem, 5vw, 4.4rem); font-weight: 900; }
   .legacy-site .nav-link { font-size: .58rem; }
   .story-deck h2 { font-size: clamp(2.8rem, 15vw, 4.4rem); }
 }
+
+/* P001 Legacy Edition V2 final polish */
+.legacy-site h1,
+.legacy-site h2,
+.legacy-site h3,
+.legacy-site .nav-link,
+.legacy-site .panel-kicker,
+.legacy-site .number-grid span,
+.legacy-site .btn { overflow-wrap: anywhere; }
+.chapter-card { grid-template-columns: minmax(0, 1.15fr) minmax(300px, .95fr); }
+.chapter-card.reverse { grid-template-columns: minmax(300px, .95fr) minmax(0, 1.15fr); }
+.chapter-card h3 { font-size: clamp(2rem, 4.2vw, 4rem); line-height: .94; }
+.chapter-card p { font-size: clamp(.98rem, 1.45vw, 1.08rem); }
+.media-card-grid .video-card h3 { font-size: clamp(1.7rem, 3vw, 2.5rem); line-height: .96; }
+.final-chapter { grid-template-columns: minmax(0, .92fr) minmax(360px, .78fr); align-items: start; }
+.final-chapter-heading { grid-column: 1 / -1; max-width: 980px; }
+.final-chapter .legacy-poster { grid-row: auto; position: sticky; top: calc(var(--header) + 1.5rem); }
+.championship-card-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; }
+.championship-story-card { min-height: 220px; display: flex; flex-direction: column; justify-content: flex-end; gap: .75rem; padding: clamp(1.1rem, 2.4vw, 1.6rem); border: 1px solid var(--line); background: linear-gradient(180deg, rgba(255,255,255,.065), rgba(2,8,23,.90)); box-shadow: 0 18px 55px rgba(0,0,0,.22); position: relative; overflow: hidden; }
+.championship-story-card::before { content: ""; position: absolute; inset: auto -18% -38% auto; width: 12rem; height: 12rem; border: 2px solid rgba(217,4,41,.28); transform: rotate(22deg); }
+.championship-story-card > * { position: relative; z-index: 1; }
+.championship-story-card h3 { font-size: clamp(1.9rem, 3.6vw, 3.3rem); line-height: .92; }
+.championship-story-card p { margin: 0; color: var(--muted); }
+.score-card { grid-column: 1 / -1; min-height: 180px; background: linear-gradient(135deg, rgba(217,4,41,.28), rgba(2,8,23,.90)); }
+.score-card h3 { font-size: clamp(2.6rem, 6vw, 5.8rem); text-shadow: 0 5px 0 rgba(217,4,41,.42); }
+.tournament-snapshot { grid-column: 1 / -1; }
+.snapshot-grid, .mini-stat-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem; margin: .2rem 0 0; }
+.mini-stat-list { grid-template-columns: 1fr; }
+.snapshot-grid div, .mini-stat-list div { border: 1px solid var(--line); background: rgba(255,255,255,.045); padding: .75rem; }
+.snapshot-grid dt, .mini-stat-list dt { color: var(--muted); text-transform: uppercase; letter-spacing: .1em; font-size: .68rem; font-weight: 900; }
+.snapshot-grid dd, .mini-stat-list dd { margin: .16rem 0 0; color: #fff; font-weight: 900; }
+.number-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.number-grid div { min-height: 175px; }
+@media (max-width: 980px) {
+  .final-chapter { grid-template-columns: 1fr; }
+  .final-chapter .legacy-poster { position: static; }
+  .championship-card-grid { grid-template-columns: 1fr; }
+  .score-card, .tournament-snapshot { grid-column: auto; }
+  .number-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 520px) {
+  .snapshot-grid { grid-template-columns: 1fr; }
+  .number-grid { grid-template-columns: 1fr; }
+  .championship-story-card { min-height: 185px; }
+}
